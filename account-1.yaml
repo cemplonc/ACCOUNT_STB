@@ -30,22 +30,6 @@ proxies:
    Headers: 
       Host: lars.ezqlusia.cloud
   udp: true
-  skip-cert-verify: true
-- name: akunssh-akunssh0210
-  type: vmess
-  server: 104.17.3.81
-  port: 80
-  uuid: 9931ef2c-8016-11ef-ae35-4395e5cc18bd
-  alterId: 0
-  cipher: auto
-  tls: false
-  servername: sg1-vmess.dnsx.my.id
-  network: ws
-  ws-opts: 
-   path: /vmess
-   Headers: 
-      Host: sg1-vmess.dnsx.my.id
-  udp: true
   skip-cert-verify: true 
 - name: VMESS-malammalam-ws05/10
   type: vmess
