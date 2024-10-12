@@ -1,0 +1,73 @@
+proxies:
+- name: Backupabadi-443.104.20.75.141
+  type: vmess
+  server: 104.20.75.141
+  port: 443
+  uuid: d27b540b-928d-47c8-87cd-3ab4fae16dd4
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: lars.ezqlusia.cloud
+  network: ws
+  ws-opts: 
+   path: /vmess
+   Headers: 
+      Host: lars.ezqlusia.cloud
+  udp: true
+  skip-cert-verify: true
+- name: Backupabadi-80.104.20.75.141
+  type: vmess
+  server: 104.20.75.141
+  port: 80
+  uuid: d27b540b-928d-47c8-87cd-3ab4fae16dd4
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: lars.ezqlusia.cloud
+  network: ws
+  ws-opts: 
+   path: /vmess
+   Headers: 
+      Host: lars.ezqlusia.cloud
+  udp: true
+  skip-cert-verify: true
+- name: akunssh-akunssh0210
+  type: vmess
+  server: 104.17.3.81
+  port: 80
+  uuid: 9931ef2c-8016-11ef-ae35-4395e5cc18bd
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: sg1-vmess.dnsx.my.id
+  network: ws
+  ws-opts: 
+   path: /vmess
+   Headers: 
+      Host: sg1-vmess.dnsx.my.id
+  udp: true
+  skip-cert-verify: true 
+- name: VMESS-malammalam-ws05/10
+  type: vmess
+  server: 104.20.75.141
+  port: 80
+  uuid: 559f1339-28d1-4ce0-a94c-b83e925ff489
+  alterId: 0
+  cipher: auto
+  tls: false
+  servername: sg3.v4vmess.xyz
+  network: ws
+  ws-opts: 
+   path: /vmess-ws
+   Headers: 
+      Host: sg3.v4vmess.xyz
+  udp: true
+  skip-cert-verify: true 
+
+
+
+
+
+
+
+

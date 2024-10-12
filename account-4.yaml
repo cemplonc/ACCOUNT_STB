@@ -1,0 +1,30 @@
+proxies:
+- name: trialX-230
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: 513cd0d4-60f5-4404-bf46-55e92eb21277
+  sni: biznet2-stb.bhm.my.id
+  network: ws
+  ws-opts: 
+   path: /trojan-ws
+   Headers: 
+      Host: biznet2-stb.bhm.my.id
+  udp: true
+  skip-cert-verify: true 
+- name: biznetsept6
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: 9becfbb0-02d2-444b-933e-7e69d4d84f32
+  sni: biznet2-stb.bhm.my.id
+  network: ws
+  ws-opts: 
+   path: /trojan-ws
+   Headers: 
+      Host: biznet2-stb.bhm.my.id
+  udp: true
+  skip-cert-verify: true 
+
+
+#=================================================
