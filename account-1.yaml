@@ -1,5 +1,21 @@
 proxies:
 
+  - name: id.vlcfpages.my.id
+    server: id.vlcfpages.my.id
+    port: 443
+    type: vless
+    uuid: 0bc51b14-02aa-40db-aeba-8a9569a7244d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id.vlcfpages.my.id
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: id.vlcfpages.my.id
+    udp: true
+
   - name: کانفیگ پرسرعت رایگان🌋@vmesc
     server: 104.21.70.184
     port: 443
