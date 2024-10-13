@@ -1,36 +1,52 @@
 proxies:
-- name: Backupabadi-80.104.20.75.141
-  type: vmess
-  server: 104.20.75.141
-  port: 80
-  uuid: d27b540b-928d-47c8-87cd-3ab4fae16dd4
-  alterId: 0
-  cipher: auto
-  tls: false
-  servername: lars.ezqlusia.cloud
-  network: ws
-  ws-opts: 
-   path: /vmess
-   Headers: 
+
+  - name: کانفیگ پرسرعت رایگان🌋@vmesc
+    server: 104.21.70.184
+    port: 443
+    type: vless
+    uuid: 5bcb458d-6f49-4e9b-9116-22cc638877d9
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ARIaMEhR.pAGeS.Dev
+    network: ws
+    ws-opts:
+      path: Telegram-------PROXY_MTM-_-_-_-Telegram-------PROXY_MTM/?ed=2048
+      headers:
+        Host: ArIaMEHR.PaGeS.DEv
+    udp: true
+  - name: Backupabadi-80.104.20.75.141
+    type: vmess
+    server: 104.20.75.141
+    port: 80
+    uuid: d27b540b-928d-47c8-87cd-3ab4fae16dd4
+    alterId: 0
+    cipher: auto
+    tls: false
+    servername: lars.ezqlusia.cloud
+    network: ws
+    ws-opts: 
+     path: /vmess
+     Headers: 
       Host: lars.ezqlusia.cloud
-  udp: true
-  skip-cert-verify: true 
-- name: VMESS-malammalam-ws05/10
-  type: vmess
-  server: 104.20.75.141
-  port: 80
-  uuid: 559f1339-28d1-4ce0-a94c-b83e925ff489
-  alterId: 0
-  cipher: auto
-  tls: false
-  servername: sg3.v4vmess.xyz
-  network: ws
-  ws-opts: 
-   path: /vmess-ws
-   Headers: 
-      Host: sg3.v4vmess.xyz
-  udp: true
-  skip-cert-verify: true 
+    udp: true
+    skip-cert-verify: true 
+  - name: VMESS-malammalam-ws05/10
+    type: vmess
+    server: 104.20.75.141
+    port: 80
+    uuid: 559f1339-28d1-4ce0-a94c-b83e925ff489
+    alterId: 0
+    cipher: auto
+    tls: false
+    servername: sg3.v4vmess.xyz
+    network: ws
+    ws-opts: 
+     path: /vmess-ws
+     Headers: 
+        Host: sg3.v4vmess.xyz
+    udp: true
+    skip-cert-verify: true 
 
 
 
