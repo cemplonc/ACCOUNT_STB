@@ -1,4 +1,19 @@
 proxies:
+  - name: کانفیگ پرسرعت رایگان🌋@vmesc
+    server: 104.17.3.81
+    port: 8443
+    type: vless   
+    uuid: 834f701d-303f-4b5a-8306-a2eb3a3594dc
+    cipher : auto
+    tls: true
+    skip-cert-verify: true
+    servername: Join.VPNCUSTOMIZE.usa.speedtest.net.Naziitness.com   
+    network: ws
+    ws-opts:
+      path: /Telegram,VPNCUSTOMIZE?ed=8443
+      headers:
+        Host: Join.VPNCUSTOMIZE.usa.speedtest.net.Naziitness.com
+    udp: true
   - name: "@V2RAY_VMESS_free"
     server: 104.17.3.81
     port: 443
