@@ -199,6 +199,19 @@ proxies:
         Host: sg3.v4vmess.xyz
     udp: true
     skip-cert-verify: true 
+  - name: کانفیگ پرسرعت رایگان🌋@vmesc
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: auto
+    skip-cert-verify: true
+    sni: trojanfree-76s.pages.dev
+    network: ws
+    ws-opts:
+      path: /trojanfree-76s.pages.dev/?ed=2560
+      headers:
+        Host: trojanfree-76s.pages.dev
+    udp: true
 
 
 
